@@ -182,20 +182,35 @@ public class MultiSpinnerSearch extends AppCompatSpinner implements OnCancelList
             public void afterTextChanged(Editable s) {
             }
         });
+//        /*
+//        Added Select all Dialog Button.
+//         */
+//        builder.setNeutralButton(android.R.string.selectAll, new DialogInterface.OnClickListener() {
+//            @Override
+//            public void onClick(DialogInterface dialog, int which) {
+//                adapter.arrayList = adapter.mOriginalValues;
+//                for (int i = 0; i < adapter.mOriginalValues.size(); i++) {
+//                    adapter.arrayList.get(i).setSelected(true);
+//                    //Log.i(TAG, adapter.mOriginalValues.get(i).getName());
+//                }
+//                adapter.notifyDataSetChanged();
+//
+//
+//            }
+//        });
         /*
-        Added Select all Dialog Button.
+        Added DeSelect all Dialog Button.
          */
-        builder.setNeutralButton(android.R.string.selectAll, new DialogInterface.OnClickListener() {
+        builder.setNeutralButton(R.string.unselectAll, new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
                 adapter.arrayList = adapter.mOriginalValues;
                 for (int i = 0; i < adapter.mOriginalValues.size(); i++) {
-                    adapter.arrayList.get(i).setSelected(true);
+                    adapter.arrayList.get(i).setSelected(false);
                     //Log.i(TAG, adapter.mOriginalValues.get(i).getName());
                 }
                 adapter.notifyDataSetChanged();
-
-
+                dialog.cancel();
             }
         });
 
