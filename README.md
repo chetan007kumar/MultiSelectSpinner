@@ -1,3 +1,4 @@
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/8331963be8944ac096bd1500491884b9)](https://app.codacy.com/manual/chetan007kumar/MultiSelectSpinner?utm_source=github.com&utm_medium=referral&utm_content=chetan007kumar/MultiSelectSpinner&utm_campaign=Badge_Grade_Dashboard)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/c6b59b9ed05b45d5b2e4b2747d3cfc9a)](https://app.codacy.com/app/chetan007kumar/MultiSelectSpinner?utm_source=github.com&utm_medium=referral&utm_content=chetan007kumar/MultiSelectSpinner&utm_campaign=Badge_Grade_Dashboard)
 [![](https://jitpack.io/v/pratikbutani/MultiSelectSpinner.svg)](https://jitpack.io/#chetan007kumar/MultiSelectSpinner)
 
